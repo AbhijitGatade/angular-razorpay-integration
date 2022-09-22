@@ -47,9 +47,9 @@ export class AppComponent {
     this.paymentId = '';
     this.error = '';
     this.options.amount = "200"; //paise
-    this.options.prefill.name = "Kishor";
-    this.options.prefill.email = "gatadeabhijit@gmail.com";
-    this.options.prefill.contact = "9561320192";
+    this.options.prefill.name = "Abcd";
+    this.options.prefill.email = "abcd@gmail.com";
+    this.options.prefill.contact = "9999999999";
     var rzp1 = new Razorpay(this.options);
     rzp1.open();
     rzp1.on('payment.failed', function (response: any) {
